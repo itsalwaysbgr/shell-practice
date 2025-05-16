@@ -14,4 +14,5 @@ if [ $? -eq 0 ]; then
     echo "MySQL installed successfully."
 else
     echo "Installation failed" 
+    exit 1
 fi
