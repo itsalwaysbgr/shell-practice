@@ -9,4 +9,4 @@ sum=$((num1 + num2))
 ddate=$(date)
 # Display result
 echo "The sum of $num1 and $num2 is: $sum"
-echo $ddate is the date of execution
+echo $ddate is the date and time of execution
