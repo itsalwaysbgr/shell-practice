@@ -1,15 +1,13 @@
 #!/bin/bash
 n=$1
-if [ $n -lt 10 ]
-then
+if [ "$num" -lt 10 ]; then
     echo "The number is less than 10"
-elif [ $n -gt 10 ]
-then
+elif [ "$num" -gt 10 ]; then
     echo "The number is greater than 10"
 else
     echo "The number is equal to 10"
 fi
-# The above code is a simple shell script that takes a number as an argument and checks if it is less than, greater than, or equal to 10.
+#ode is a simple shell script that takes a number as an argument and checks if it is less than, greater than, or equal to 10.
 # It uses the if-elif-else statement to perform the comparison and prints the corresponding message.
 # The script uses the test command (or [ ] brackets) to evaluate the conditions.
 # The script can be run by passing a number as an argument, for example:
