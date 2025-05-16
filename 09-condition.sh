@@ -15,4 +15,4 @@ fi
 # ./script.sh 5
 # This will output: "The number is less than 10"
 # The script can be modified to check for other conditions or to take input from the user instead of command-line arguments.
-# The script can also be enhanced by adding error handling to check if the input is a valid number.
+# The script can also be enhanced by adding error handling to check if the input is a valid number.a
