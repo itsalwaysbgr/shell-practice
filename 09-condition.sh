@@ -1,4 +1,5 @@
 #!/bin/bash
+read $1
 n=$1
 if [ "$n" -lt 10 ]; then
     echo "The number is less than 10"
