@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Prompt for password without showing input
-read -sp "Enter your password: " PASSWORD
-echo
+echo "Enter your pin number::"
 
-# You can add password validation here if needed
+read -s PIN #here PIN is variable
 
-echo "You are authorised"
+echo "Your number is: $PIN"

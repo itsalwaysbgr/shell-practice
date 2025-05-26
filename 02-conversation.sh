@@ -1,6 +1,7 @@
-echo -e "\e[34m  _____  _    _  _____  \e[0m"
-echo -e "\e[34m |  __ \| |  | ||  __ \ \e[0m"
-echo -e "\e[34m | |__) | |  | || |__) |\e[0m"
-echo -e "\e[34m |  ___/| |  | ||  _  / \e[0m"
-echo -e "\e[34m | |    | |__| || | \ \ \e[0m"
-echo -e "\e[34m |_|     \____/ |_|  \_\ \e[0m"
+#!/bin/bash
+
+echo "Trump:: Hey Musk, How are you?"
+echo "Musk:: Hello Trump, I am fine. How are you doing"
+echo "Trump: I am fine too. What's up?"
+echo "Musk:: Nohting, just going to Mars now, will you come?"
+echo "Trump:: Sorry, you carry on! I will come once you come back"

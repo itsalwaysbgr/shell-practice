@@ -1,12 +1,11 @@
 #!/bin/bash
 
-# Prompt user for two numbers
-read -p "Enter first number: " num1
-read -p "Enter second number: " num2
+# this is comment
+NUMBER1=100
+NUMBER2=200
 
-# Calculate sum
-sum=$((num1 + num2))
-ddate=$(date)
-# Display result
-echo "The sum of $num1 and $num2 is: $sum"
-echo $ddate is the date and time of execution
+TIMESTAMP=$(date)
+echo "Script executed at: $TIMESTAMP"
+SUM=$(($NUMBER1+$NUMBER2))
+
+echo "SUM of $NUMBER1 and $NUMBER2 is: $SUM"

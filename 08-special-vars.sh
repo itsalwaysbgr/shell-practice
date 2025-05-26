@@ -1,12 +1,11 @@
 #!/bin/bash
 
-
-echo "All varaiables passed to the script : $@"
-echo "Number of variables passed to the script : $#"
-echo "script name : $0"
-echo "current directory : $PWD"
-echo "user running the script : $USER"
-echo "home directory : $HOME"
-echo "PID of the current shell : $$"
+echo "All variables passed to the script: $@"
+echo "Number of variables: $#"
+echo "Script name: $0"
+echo "Current Directory: $PWD"
+echo "User running this script: $USER"
+echo "Home directory of user: $HOME"
+echo "PID of the script: $$"
 sleep 10 &
-echo "PID of the last background process : $!"
+echo "PID of last command in background: $!"

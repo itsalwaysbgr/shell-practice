@@ -1,18 +1,10 @@
 #!/bin/bash
 
-FORTUNES=(
-  "You will have a surprisingly pleasant encounter."
-  "A thrilling adventure awaits you."
-  "Good news will arrive shortly."
-  "Expect a windfall of unexpected joy."
-  "The stars are aligned in your favor."
-  "A delicious meal is in your near future."
-  "You will master a new skill."
-  "Someone is thinking fondly of you."
-)
+PERSON1=$1
+PERSON2=$2
 
-declare -i RANDOM_INDEX=$((RANDOM % ${#FORTUNES[@]}))
-YOUR_FORTUNE="${FORTUNES[$RANDOM_INDEX]}"
-
-echo "🔮 Your fortune for today, $USER:"
-echo "✨ $YOUR_FORTUNE ✨"
+echo "$PERSON1:: Hey $PERSON2, How are you?"
+echo "$PERSON2:: Hello $PERSON1, I am fine. How are you doing"
+echo "$PERSON1:: I am fine too. What's up?"
+echo "$PERSON2:: Nohting, just going to Mars now, will you come?"
+echo "$PERSON1:: Sorry, you carry on! I will come once you come back"
